@@ -49,16 +49,7 @@ const Home = () => {
           </p>
 
           
-          <motion.a
-            href="/resume.pdf" 
-            download
-            className="inline-block px-8 py-3 text-lg font-semibold rounded-xl shadow-lg bg-gradient-to-r from-blue-500 to-purple-600 text-white"
-            whileHover={{ scale: 1.1, boxShadow: "0px 0px 15px rgba(59,130,246,0.8)" }}
-            whileTap={{ scale: 0.95 }}
-            transition={{ type: "spring", stiffness: 300 }}
-          >
-            Download CV
-          </motion.a>
+          
         </motion.div>
       </div>
     </div>
